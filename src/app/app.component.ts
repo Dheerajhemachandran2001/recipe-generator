@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipe-generator';
+
+  catchSearch(event:string){
+    console.log(event)
+  }
+
+  catchRandom(){
+    console.log("random")
+  }
+
+  catchFilter(filter:string){
+    console.log(filter)
+  }
 }

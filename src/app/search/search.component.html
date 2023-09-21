@@ -1,0 +1,7 @@
+<div class="flex justify-between items-center py-4">
+    <div class="text-slate-100 font-bold flex items-center gap-1">
+        <input type="text" (input)="searchKey($event)" class="rounded outline-0 text-sm text-blue-500 px-2 py-1">
+        <button class="bg-slate-200 text-slate-900 px-2 py-1 rounded text-sm" (click)="emitSearch()">search</button>
+    </div>
+    <button class="rounded bg-slate-200 text-orange-700 font-bold px-2 py-1" (click)="emitRandom()">Random</button>
+</div>
